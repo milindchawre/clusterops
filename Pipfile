@@ -10,6 +10,7 @@ pytest = "*"
 boto3 = "*"
 
 [packages]
+boto3 = "*"
 
 [requires]
 python_version = "3.9"

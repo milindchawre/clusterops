@@ -5,11 +5,11 @@ with open("README.md", encoding="UTF-8") as f:
 
 setup(
     name="cluster-ops",
-    version="1.0",
+    version="0.1.0",
     description="CLI to start/stop AWS resources",
     long_description=readme,
     author="Milind",
-    author_email="milind.chawre@tomtom.com",
+    author_email="milindchawre@gmail.com",
     packages=find_packages("src"),
     package_dir={"": "src"},
     install_requires=["boto3"],
