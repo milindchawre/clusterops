@@ -3,7 +3,7 @@
 default: test
 
 install:
-	pipenv install --dev --skip-lock flake8 black pytest boto3
+	pipenv install --dev flake8 black pytest boto3
 
 lint:
 	black .
