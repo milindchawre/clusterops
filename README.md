@@ -22,7 +22,7 @@ Start/Stop rds.
 $ cluster-ops [start/stop] rds db-name-1 db-name-2
 ```
 
-### Running Tests
+Running Tests
 -----------------
 Run tests locally using make if virtualenv is active:
 ```
